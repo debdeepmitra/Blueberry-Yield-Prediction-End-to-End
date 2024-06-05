@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 from prediction import get_prediction
 
-model = joblib.load(r'Model\model.joblib')
+model = joblib.load('model.joblib')
 
 st.set_page_config(page_title ='Blueberry Yield Prediction', page_icon = '🫐', layout ='wide')
 st.markdown("<h1 style = 'text-align: center;'>Blueberry Yield Prediction 🫐</h1>", unsafe_allow_html=True)
